@@ -16,16 +16,19 @@ export default function AboutUs() {
                     About Us
                   </h5>
                   <h2 className='wow fadeInDown' data-wow-delay='.3s'>
-                    Bringing natures bounty to your plate
+                    {/* Bringing natures bounty to your plate */}
+                    Farming with Passion, <br /> The Feeding Purpose
                   </h2>
                   <p className='wow fadeInUp' data-wow-delay='.4s'>
                     At Finno AQ, we envision a world of sustainable smart farms
                     where food farming is both productive, profitable and
                     sustainable. Our mission is to empower farmers by providing
-                    customised <strong>climate-smart, data-driven tools</strong>{' '}
-                    and <strong>climate-smart, data-driven tools</strong> they
-                    need to thrive in a changing climate, ensuring quality food
-                    and nutritional security for everyone.
+                    customised <strong>Next-Gen Farming</strong> and{' '}
+                    <strong>
+                      Healthy Food Full stack Phygital Model, Smart Villages
+                    </strong>{' '}
+                    they need to thrive in a changing climate, ensuring quality
+                    food and nutritional security for everyone.
                   </p>
                   <div className='progress_bar d-grid gap-xxl-4 gap-4'>
                     <div className='progress_bar_item'>
@@ -38,7 +41,10 @@ export default function AboutUs() {
                         <div className='item_value p900-clr'>70%</div>
                       </div>
                       <div className='item_bar'>
-                        <div className='progress' data-progress='70'></div>
+                        <div
+                          className='progress'
+                          data-progress='70'
+                          style={{ width: '70%' }}></div>
                       </div>
                     </div>
                     <div className='progress_bar_item'>
@@ -49,7 +55,10 @@ export default function AboutUs() {
                         <div className='item_value p900-clr'>80%</div>
                       </div>
                       <div className='item_bar'>
-                        <div className='progress' data-progress='80'></div>
+                        <div
+                          className='progress'
+                          data-progress='80'
+                          style={{ width: '80%' }}></div>
                       </div>
                     </div>
                   </div>

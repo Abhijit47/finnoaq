@@ -31,7 +31,7 @@ export default function AboutHomeTwo() {
                     Why Chose Us
                   </h5>
                   <h2 className='wow fadeInDown' data-wow-delay='.3s'>
-                    Farming with passion the feeding purpose
+                    Making farming simple, smart and sustainable
                   </h2>
                   {/* <p className='wow fadeInUp mb-lg-4 mb-3' data-wow-delay='.4s'>
                     Morem ipsum dolor sit amet consectetur. Amet lectus mi

@@ -21,7 +21,7 @@ export default function HeroHomeTwo() {
                     Transforming Food Farming Future{' '}
                     <span className={''}>
                       with our Sustainable
-                      <br /> Climate Smart Biofarming Solutions
+                      <br /> Climate Smart Biofarming System
                     </span>
                   </h1>
                   {/* <h1 className='wow fadeInUp' data-wow-delay='0.5s'>
@@ -32,7 +32,7 @@ export default function HeroHomeTwo() {
                   </h1> */}
                   <p className='wow fadeInUp' data-wow-delay='0.7s'>
                     Join us in revolutionising the farming landscape with our
-                    climate-smart innovations and sustainable practices.
+                    climate-smart innovations and sustainable solutions.
                   </p>
                   <div
                     className='banner-buttonv2 wow fadeInUp'

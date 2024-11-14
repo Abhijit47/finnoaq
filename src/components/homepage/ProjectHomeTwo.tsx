@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const projectData = [
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Aqua Hatchery',
     image: '/Project/Aqua Hatchery/IMG_20220727_112550.jpg',
     link: '#',
     width: 3280,
@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Aqua Tank Farming',
     image:
       '/Project/Aqua Tank Farming/WhatsApp Image 2024-11-10 at 15.07.24 (1).jpeg',
     link: '#',
@@ -26,7 +26,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Aqua RAS',
     image: '/Project/CEA/Aqua_RAS/WhatsApp Image 2024-11-10 at 14.14.12.jpeg',
     link: '#',
     width: 1024,
@@ -34,7 +34,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Hydroponic',
     image: '/Project/CEA/Hydroponic/WhatsApp Image 2024-11-10 at 14.59.32.jpeg',
     link: '#',
     width: 1068,
@@ -42,7 +42,15 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Hydroponic',
+    image: '/Project/CEA/Hydroponic/Microgreens.jpeg',
+    link: '#',
+    width: 1280,
+    height: 720,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Nursery',
     image: '/Project/Nursery/WhatsApp Image 2024-11-10 at 14.49.04 (1).jpeg',
     link: '#',
     width: 1277,
@@ -50,7 +58,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Agri Farming',
     image:
       '/Project/Open Field Modern Farming/Agri Farming/WhatsApp Image 2024-11-10 at 14.26.31 (1).jpeg',
     link: '#',
@@ -59,7 +67,16 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Agri Farming',
+    image:
+      '/Project/Open Field Modern Farming/Agri Farming/WhatsApp Image 2024-11-10 at 20.31.54.jpeg',
+    link: '#',
+    width: 1600,
+    height: 555,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Aqua Farming',
     image:
       '/Project/Open Field Modern Farming/Aqua Farming/Photo from Krish.jpg',
     link: '#',
@@ -68,7 +85,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Land Transformation',
     image:
       '/Project/Open Field Modern Farming/Land Transformation Project/WhatsApp Image 2024-11-10 at 14.22.11 (2).jpeg',
     link: '#',
@@ -77,7 +94,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Seaweed',
     image:
       '/Project/Open Field Modern Farming/Seaweed/WhatsApp Image 2024-11-10 at 14.49.04.jpeg',
     link: '#',
@@ -86,7 +103,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: '',
+    title: 'Pond RS',
     image: '/Project/Pond_RS/IMG-20220419-WA0004.jpg',
     link: '#',
     width: 1156,
@@ -105,7 +122,9 @@ const projectData = [
 export default function ProjectHomeTwo() {
   return (
     <>
-      <section className='recent-project-section fix section-padding white-bg'>
+      <section
+        id='success-stories'
+        className='recent-project-section fix section-padding white-bg'>
         <div className='container'>
           <div className='recent-project-head d-md-flex d-grid gap-4 justify-content-between align-items-end mb-60'>
             <div className='section-title'>
@@ -140,9 +159,10 @@ export default function ProjectHomeTwo() {
             nextEl: '.cmn-next1',
             prevEl: '.cmn-prev1',
           }}
+          grabCursor={true}
           modules={[Navigation, Autoplay]}
           autoplay={{
-            delay: 2500,
+            delay: 1500,
             disableOnInteraction: true,
           }}
           breakpoints={{
@@ -164,21 +184,23 @@ export default function ProjectHomeTwo() {
           }}
           className='swiper recent-project-wrap'>
           {projectData.map((project, idx) => (
-            <SwiperSlide
-              key={project.id}
-              className='swiper-slide'
-              style={{ aspectRatio: '1/1' }}>
-              <div className='recent-project-item position-relative overflow-hidden w-100 h-100'>
-                <Image
-                  src={project.image}
-                  alt={`project image ${idx + 1}`}
-                  width={project.width}
-                  height={project.height}
-                  className='w-100 h-100 object-fit-cover'
-                />
-                <Link href={project.link} className='arrow'>
-                  <i className='fa-solid fa-link'></i>
-                </Link>
+            <SwiperSlide key={project.id} className='swiper-slide'>
+              <div className={''} style={{ aspectRatio: '1/1' }}>
+                <div className='recent-project-item position-relative overflow-hidden w-100 h-100'>
+                  <Image
+                    src={project.image}
+                    alt={`project image ${idx + 1}`}
+                    width={project.width}
+                    height={project.height}
+                    className='w-100 h-100 object-fit-cover'
+                  />
+                  <Link href={project.link} className='arrow'>
+                    <i className='fa-solid fa-link'></i>
+                  </Link>
+                </div>
+                <h2 className={'fs-3 text-center mt-2 display-3'}>
+                  {project.title}
+                </h2>
               </div>
             </SwiperSlide>
           ))}

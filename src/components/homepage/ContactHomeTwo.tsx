@@ -70,25 +70,74 @@ export default function ContactHomeTwo() {
                   id='myForm'
                   onSubmit={handleSubmit}
                   className='row g-xl-4 g-3'>
-                  <div className='col-lg-6'>
+                  <div className='col-12 col-lg-6'>
+                    <label htmlFor='fname' className={'visually-hidden'}>
+                      First Name
+                    </label>
                     <input
                       type='text'
-                      placeholder='Name'
-                      name='name'
-                      id='name'
-                      defaultValue={isDev ? 'John Doe' : ''}
+                      placeholder='First Name'
+                      name='fname'
+                      id='fname'
+                      autoComplete='given-name'
+                      defaultValue={isDev ? 'John' : ''}
                     />
                   </div>
-                  <div className='col-lg-6'>
+                  <div className='col-12 col-lg-6'>
+                    <label htmlFor='lname' className={'visually-hidden'}>
+                      Last Name
+                    </label>
+                    <input
+                      type='text'
+                      placeholder='Last Name'
+                      name='lname'
+                      id='lname'
+                      autoComplete='family-name'
+                      defaultValue={isDev ? 'doe' : ''}
+                    />
+                  </div>
+                  <div className='col-12 col-lg-6'>
+                    <label htmlFor='email' className={'visually-hidden'}>
+                      Email
+                    </label>
                     <input
                       type='email'
                       placeholder='E-mail'
                       name='email'
                       id='email'
-                      defaultValue={isDev ? 'someone@example.com' : ''}
+                      autoComplete='email'
+                      defaultValue={isDev ? 'somoone@example.com' : ''}
+                    />
+                  </div>
+                  <div className='col-12 col-lg-6'>
+                    <label htmlFor='phone' className={'visually-hidden'}>
+                      Phone
+                    </label>
+                    <input
+                      type='tel'
+                      placeholder='Mobile Number'
+                      name='phone'
+                      id='phone'
+                      autoComplete='tel'
+                      defaultValue={isDev ? '9999911111' : ''}
                     />
                   </div>
                   <div className='col-lg-12'>
+                    <label htmlFor='location' className={'visually-hidden'}>
+                      Location
+                    </label>
+                    <input
+                      type='text'
+                      placeholder='Location'
+                      name='location'
+                      id='location'
+                      defaultValue={isDev ? 'Somewhere in the world' : ''}
+                    />
+                  </div>
+                  <div className='col-lg-12'>
+                    <label htmlFor='subject' className={'visually-hidden'}>
+                      Subject
+                    </label>
                     <input
                       type='text'
                       placeholder='Subject'
@@ -98,6 +147,9 @@ export default function ContactHomeTwo() {
                     />
                   </div>
                   <div className='col-lg-12'>
+                    <label htmlFor='message' className={'visually-hidden'}>
+                      Message
+                    </label>
                     <textarea
                       name='message'
                       placeholder='Message'
