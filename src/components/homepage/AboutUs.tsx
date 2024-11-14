@@ -23,12 +23,10 @@ export default function AboutUs() {
                     At Finno AQ, we envision a world of sustainable smart farms
                     where food farming is both productive, profitable and
                     sustainable. Our mission is to empower farmers by providing
-                    customised <strong>Next-Gen Farming</strong> and{' '}
-                    <strong>
-                      Healthy Food Full stack Phygital Model, Smart Villages
-                    </strong>{' '}
-                    they need to thrive in a changing climate, ensuring quality
-                    food and nutritional security for everyone.
+                    customised <strong>climate-smart, data-driven tools</strong>{' '}
+                    and <strong>innovative biofarming solutions</strong> they
+                    need to thrive in a changing climate, ensuring quality food
+                    and nutritional security for everyone.
                   </p>
                   <div className='progress_bar d-grid gap-xxl-4 gap-4'>
                     <div className='progress_bar_item'>
@@ -36,7 +34,7 @@ export default function AboutUs() {
                         className='per-title d-flex align-items-center justify-content-between'
                         style={{ width: '70%' }}>
                         <div className='item_label p900-clr'>
-                          Pure And Organic
+                          Next-Gen Farming, Healthy Food
                         </div>
                         <div className='item_value p900-clr'>70%</div>
                       </div>
@@ -51,7 +49,9 @@ export default function AboutUs() {
                       <div
                         className='per-title d-flex align-items-center justify-content-between'
                         style={{ width: '80%' }}>
-                        <div className='item_label p900-clr'>Healthy Food</div>
+                        <div className='item_label p900-clr'>
+                          Full stack Phygital Model, Smart Villages
+                        </div>
                         <div className='item_value p900-clr'>80%</div>
                       </div>
                       <div className='item_bar'>
