@@ -76,25 +76,25 @@ export default function FooterOne() {
                     <li>
                       <Link href='#services'>
                         <i className='fa-solid fa-angle-right'></i>
-                        Success Steps Education
+                        Aquaculture & Horticulture Engineering
                       </Link>
                     </li>
                     <li>
                       <Link href='#services'>
                         <i className='fa-solid fa-angle-right'></i>
-                        Pathway to Progress
+                        Farm, Crop & Marketplace Digitalisation
                       </Link>
                     </li>
                     <li>
                       <Link href='#services'>
                         <i className='fa-solid fa-angle-right'></i>
-                        Skill Builders Academy
+                        Extension & Advisory Support Service
                       </Link>
                     </li>
                     <li>
                       <Link href='#services'>
                         <i className='fa-solid fa-angle-right'></i>
-                        Academic Achievers
+                        Farm Startup support
                       </Link>
                     </li>
                   </ul>

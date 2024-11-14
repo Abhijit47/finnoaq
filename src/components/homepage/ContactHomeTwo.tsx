@@ -9,7 +9,7 @@ const isDev = process.env.NODE_ENV === 'development' ? true : false;
 export default function ContactHomeTwo() {
   const formRef = useRef<HTMLFormElement>(null);
 
-  function handleSubmit(e: React.FormEvent) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
     // console.log('EMAIL_JS_PUBLIC_KEY:', process.env);
@@ -17,6 +17,27 @@ export default function ContactHomeTwo() {
     //   alert('EmailJS public key is missing!');
     //   return;
     // }
+
+    const firstName = e.currentTarget.fname.value;
+    const lastName = e.currentTarget.lname.value;
+    const email = e.currentTarget.email.value;
+    const phone = e.currentTarget.phone.value;
+    const location = e.currentTarget.location.value;
+    const subject = e.currentTarget.subject.value;
+    const message = e.currentTarget.message.value;
+
+    if (
+      !firstName ||
+      !lastName ||
+      !email ||
+      !phone ||
+      !location ||
+      !subject ||
+      !message
+    ) {
+      alert('Please fill in all fields!');
+      return;
+    }
 
     // Initialize EmailJS
     (function () {
@@ -81,6 +102,7 @@ export default function ContactHomeTwo() {
                       id='fname'
                       autoComplete='given-name'
                       defaultValue={isDev ? 'John' : ''}
+                      required
                     />
                   </div>
                   <div className='col-12 col-lg-6'>
@@ -94,6 +116,7 @@ export default function ContactHomeTwo() {
                       id='lname'
                       autoComplete='family-name'
                       defaultValue={isDev ? 'doe' : ''}
+                      required
                     />
                   </div>
                   <div className='col-12 col-lg-6'>
@@ -107,6 +130,7 @@ export default function ContactHomeTwo() {
                       id='email'
                       autoComplete='email'
                       defaultValue={isDev ? 'somoone@example.com' : ''}
+                      required
                     />
                   </div>
                   <div className='col-12 col-lg-6'>
@@ -120,6 +144,7 @@ export default function ContactHomeTwo() {
                       id='phone'
                       autoComplete='tel'
                       defaultValue={isDev ? '9999911111' : ''}
+                      required
                     />
                   </div>
                   <div className='col-lg-12'>
@@ -132,6 +157,7 @@ export default function ContactHomeTwo() {
                       name='location'
                       id='location'
                       defaultValue={isDev ? 'Somewhere in the world' : ''}
+                      required
                     />
                   </div>
                   <div className='col-lg-12'>
@@ -144,6 +170,7 @@ export default function ContactHomeTwo() {
                       name='subject'
                       id='subject'
                       defaultValue={isDev ? 'Subject' : ''}
+                      required
                     />
                   </div>
                   <div className='col-lg-12'>
@@ -157,10 +184,11 @@ export default function ContactHomeTwo() {
                       style={{ resize: 'none' }}
                       id='message'
                       defaultValue={isDev ? 'Message' : ''}
+                      required
                     />
                   </div>
                   <div className='col-lg-6'>
-                    <button type='submit' className='cmn-btn text-capitalize'>
+                    <button className='cmn-btn text-capitalize'>
                       Submit Now
                     </button>
                   </div>
