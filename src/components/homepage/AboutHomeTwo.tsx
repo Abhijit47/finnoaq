@@ -45,7 +45,9 @@ export default function AboutHomeTwo() {
                         'd-flex flex-column justify-content-start align-items-start'
                       }>
                       <span className={'d-flex gap-1 align-items-center'}>
-                        <i className='fa-solid fa-circle-check'></i>
+                        <i
+                          className='fa-solid fa-circle-check'
+                          style={{ color: '#002ad5' }}></i>
                         <strong>Domain Expertise</strong>
                       </span>
                       <p>
@@ -59,7 +61,9 @@ export default function AboutHomeTwo() {
                         'd-flex flex-column justify-content-start align-items-start'
                       }>
                       <span className={'d-flex gap-1 align-items-center'}>
-                        <i className='fa-solid fa-circle-check'></i>
+                        <i
+                          className='fa-solid fa-circle-check'
+                          style={{ color: '#002ad5' }}></i>
                         <strong>Customized Farming Solutions</strong>
                       </span>
                       <p>
@@ -73,7 +77,9 @@ export default function AboutHomeTwo() {
                         'd-flex flex-column justify-content-start align-items-start'
                       }>
                       <span className={'d-flex gap-1 align-items-center'}>
-                        <i className='fa-solid fa-circle-check'></i>
+                        <i
+                          className='fa-solid fa-circle-check'
+                          style={{ color: '#002ad5' }}></i>
                         <strong>Cutting-Edge Sustainable Technology</strong>
                       </span>
                       <p>
@@ -86,7 +92,9 @@ export default function AboutHomeTwo() {
                         'd-flex flex-column justify-content-start align-items-start'
                       }>
                       <span className={'d-flex gap-1 align-items-center'}>
-                        <i className='fa-solid fa-circle-check'></i>
+                        <i
+                          className='fa-solid fa-circle-check'
+                          style={{ color: '#002ad5' }}></i>
                         <strong>Sustainability & ESG Focus</strong>
                       </span>
                       <p>

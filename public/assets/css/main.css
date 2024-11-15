@@ -15,6 +15,8 @@
   --p100-clr: #eff3ed;
   --box-clr: #2A5747;
   --shadow-clr: box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --brand-color-primary: #26c41a;
+  --brand-color-secondary: #002ad5;
 }
 
 html {
@@ -3525,6 +3527,7 @@ iframe {
   font-weight: 400;
   font-family: "Noto Serif", sans-serif;
   color: var(--p900-clr);
+  /* color: var(--brand-color-secondary); */
   padding-right: 40px;
   text-align: start;
 }
@@ -3547,7 +3550,8 @@ iframe {
   min-width: 40px;
   height: 40px;
   background: var(--p100-clr);
-  color: var(--p1-clr);
+  /* color: var(--p1-clr); */
+  color: var(--brand-color-secondary);
 }
 
 .faq .active {

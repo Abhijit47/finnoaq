@@ -71,6 +71,7 @@ export default function Faqs() {
                           className='accordion-btn d-flex align-items-center d-flex position-relative w-100'
                           type='button'>
                           {item.question}
+                          {/* <i className='fa-solid fa-plus text-light'></i> */}
                         </button>
                       </h5>
                       <div

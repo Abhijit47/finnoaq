@@ -49,7 +49,9 @@ export default function HeroHomeTwo() {
                       target='_blank'
                       rel='noopener noreferrer'
                       className='header-help'>
-                      <span className='icon d-center'>
+                      <span
+                        className='icon d-center'
+                        style={{ background: '#002ad5' }}>
                         <i className='fa-solid fa-phone'></i>
                       </span>
                       <span className='d-grid'>

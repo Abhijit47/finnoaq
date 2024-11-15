@@ -41,3 +41,4 @@ next-env.d.ts
 
 # remove .mp4
 *.mp4
+*.zip

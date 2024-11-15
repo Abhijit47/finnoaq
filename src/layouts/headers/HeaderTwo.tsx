@@ -82,8 +82,9 @@ export default function HeaderTwo() {
                   <Link
                     href='#'
                     className='search-trigger d-center'
-                    onClick={() => setSearchOpen(!serchOpen)}>
-                    <i className='fa-solid fa-magnifying-glass'></i>
+                    onClick={() => setSearchOpen(!serchOpen)}
+                    style={{ background: '#002ad5' }}>
+                    <i className='fa-solid fa-magnifying-glass text-light'></i>
                   </Link>
                   <div className='header-button d-sm-block d-none'>
                     <button

@@ -36,13 +36,13 @@ export default function AboutUs() {
                         <div className='item_label p900-clr'>
                           Next-Gen Farming, Healthy Food
                         </div>
-                        <div className='item_value p900-clr'>70%</div>
+                        {/* <div className='item_value p900-clr'>70%</div> */}
                       </div>
                       <div className='item_bar'>
                         <div
                           className='progress'
                           data-progress='70'
-                          style={{ width: '70%' }}></div>
+                          style={{ width: '70%', background: '#002ad5' }}></div>
                       </div>
                     </div>
                     <div className='progress_bar_item'>
@@ -52,13 +52,13 @@ export default function AboutUs() {
                         <div className='item_label p900-clr'>
                           Full stack Phygital Model, Smart Villages
                         </div>
-                        <div className='item_value p900-clr'>80%</div>
+                        {/* <div className='item_value p900-clr'>80%</div> */}
                       </div>
                       <div className='item_bar'>
                         <div
                           className='progress'
                           data-progress='80'
-                          style={{ width: '80%' }}></div>
+                          style={{ width: '80%', background: '#002ad5' }}></div>
                       </div>
                     </div>
                   </div>

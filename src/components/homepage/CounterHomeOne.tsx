@@ -1,10 +1,16 @@
 'use client';
-import counter_img_1 from '@/assets/img/icon/count1.svg';
-import counter_img_2 from '@/assets/img/icon/count2.svg';
-import counter_img_3 from '@/assets/img/icon/count3.svg';
-import counter_img_4 from '@/assets/img/icon/count4.svg';
+
+// import counter_img_4 from '@/assets/img/icon/count4.svg';
+// import counter_img_1 from '@/assets/img/icon/mc9.svg';
+// import counter_img_2 from '@/assets/img/icon/sr1.svg';
+// import counter_img_3 from '@/assets/img/icon/sr4.svg';
 import Count from '@/components/common/Count';
 import Image from 'next/image';
+
+import countImage1 from '../../../public/counters/1.svg';
+import countImage2 from '../../../public/counters/2.svg';
+import countImage3 from '../../../public/counters/3.svg';
+import countImage4 from '../../../public/counters/4.svg';
 
 interface CountDataType {
   id: number;
@@ -15,25 +21,25 @@ interface CountDataType {
 }
 
 const coundet_data: CountDataType[] = [
-  { id: 1, number: 100, icon: counter_img_1, text: '+', title: 'Farmers' },
+  { id: 1, number: 100, icon: countImage1, text: '+', title: 'Farmers' },
   {
     id: 2,
     number: 1,
-    icon: counter_img_2,
+    icon: countImage2,
     text: 'cr+',
     title: 'Seed production',
   },
   {
     id: 2,
     number: 5,
-    icon: counter_img_3,
+    icon: countImage3,
     text: '+',
     title: 'Villages',
   },
   {
     id: 2,
     number: 50,
-    icon: counter_img_4,
+    icon: countImage4,
     text: '+',
     title: 'Smart Farmers',
   },
