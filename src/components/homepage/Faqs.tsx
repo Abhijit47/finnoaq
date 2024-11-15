@@ -30,19 +30,31 @@ export default function Faqs() {
                   <h2 className='wow fadeInDown' data-wow-delay='.3s'>
                     Ready to Transform Your Farm ?
                   </h2>
-                  <p>
-                    Partner with Finno AQ today to explore our{' '}
-                    <strong> full-stack phygital farm-tech solutions</strong>.{' '}
-                    <br />
-                    Don’t wait for the future; embrace it today! <br />{' '}
-                    Together, we can create a sustainable, productive farming
-                    ecosystem that benefits your farm, your community, and the
-                    planet. <br />{' '}
-                    <em>
-                      Get in touch with us today and let’s cultivate success
-                      together!
-                    </em>
-                  </p>
+
+                  <div>
+                    <p className={'mb-2'}>
+                      Partner with Finno AQ today to explore our{' '}
+                      <strong> full-stack phygital farm-tech solutions</strong>.
+                    </p>
+
+                    <p className={'mb-2'}>
+                      {' '}
+                      Don’t wait for the future; embrace it today!
+                    </p>
+
+                    <p className={'mb-2'}>
+                      Together, we can create a sustainable, productive farming
+                      ecosystem that benefits your farm, your community, and the
+                      planet.
+                    </p>
+                    <p className={'mb-2'}>
+                      <em>
+                        Get in touch with us today and let’s cultivate success
+                        together!
+                      </em>
+                    </p>
+                  </div>
+
                   {/* <div className='faq-watch'>
                     <Link
                       href='#faq'

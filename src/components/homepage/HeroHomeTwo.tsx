@@ -55,7 +55,7 @@ export default function HeroHomeTwo() {
                         <i className='fa-solid fa-phone'></i>
                       </span>
                       <span className='d-grid'>
-                        <span className='need'>Need help?</span>
+                        <span className='need'>Need support ?</span>
                         <span className='call'>8100533280</span>
                       </span>
                     </Link>

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 export default function AboutHomeTwo() {
   return (
@@ -28,7 +28,7 @@ export default function AboutHomeTwo() {
               <div className='about-contentv1'>
                 <div className='section-title mb-40'>
                   <h5 className='p1-clr wow fadeInLeft' data-wow-delay='0.4s'>
-                    Why Chose Us
+                    Why Chose Us ?
                   </h5>
                   <h2 className='wow fadeInDown' data-wow-delay='.3s'>
                     Making farming simple, smart and sustainable
@@ -80,11 +80,12 @@ export default function AboutHomeTwo() {
                         <i
                           className='fa-solid fa-circle-check'
                           style={{ color: '#002ad5' }}></i>
-                        <strong>Cutting-Edge Sustainable Technology</strong>
+                        <strong>Phygital farmtech, full stack solutions</strong>
                       </span>
                       <p>
-                        Use <strong> our sustainable biofarm solutions</strong>{' '}
-                        to stay ahead in an unpredictable climate.
+                        We&apos;re your one stop sustainable farming platform
+                        that helps you stay resilient and efficient even in
+                        unpredictable climatic situations
                       </p>
                     </li>
                     <li
@@ -102,12 +103,17 @@ export default function AboutHomeTwo() {
                         practices that enhance your farm’s productivity,
                         profitability and positive impact on health.
                       </p>
+                      <p>
+                        We are committed to enabling positive social impact that
+                        boost farm productivity, farmers profitability and
+                        healthy food quality
+                      </p>
                     </li>
                   </ul>
-                  <Link href='/#' className='cmn-btn primary-border'>
+                  {/* <Link href='/#' className='cmn-btn primary-border'>
                     Read More
                     <i className='fa-solid fa-arrow-right p1-clr'></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

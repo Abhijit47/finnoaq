@@ -34,7 +34,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: 'Hydroponic',
+    title: 'Spirulina Farming',
     image: '/Project/CEA/Hydroponic/WhatsApp Image 2024-11-10 at 14.59.32.jpeg',
     link: '#',
     width: 1068,
@@ -42,7 +42,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: 'Hydroponic',
+    title: 'Hydroponic Farming',
     image: '/Project/CEA/Hydroponic/Microgreens.jpeg',
     link: '#',
     width: 1280,
@@ -50,7 +50,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: 'Nursery',
+    title: 'Nursery Farming',
     image: '/Project/Nursery/WhatsApp Image 2024-11-10 at 14.49.04 (1).jpeg',
     link: '#',
     width: 1277,
@@ -67,7 +67,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: 'Agri Farming',
+    title: 'Modern Farming',
     image:
       '/Project/Open Field Modern Farming/Agri Farming/WhatsApp Image 2024-11-10 at 20.31.54.jpeg',
     link: '#',
@@ -94,7 +94,7 @@ const projectData = [
   },
   {
     id: crypto.randomUUID(),
-    title: 'Seaweed',
+    title: 'Seaweed Farming',
     image:
       '/Project/Open Field Modern Farming/Seaweed/WhatsApp Image 2024-11-10 at 14.49.04.jpeg',
     link: '#',
@@ -134,7 +134,8 @@ export default function ProjectHomeTwo() {
                 Recent projects
               </h5>
               <h2 className='wow fadeInDown' data-wow-delay='.3s'>
-                Bringing nature bounty <br /> to your plate
+                {/* Bringing nature bounty <br /> to your plate */}
+                Empowering nature for a <br /> sustainable tomorrow
               </h2>
             </div>
             <div className='common-slidebtn d-flex align-items-center gap-xl-3 gap-2'>

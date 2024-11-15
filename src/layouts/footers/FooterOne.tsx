@@ -15,7 +15,7 @@ export default function FooterOne() {
                   <div className='widget-head w-50 h-25'>
                     <Link href='/' className='footer-logo'>
                       <Image
-                        src='/assets/img/logo/Logo_t.png'
+                        src='/assets/img/logo/Logo_t-transparent.png'
                         alt='logo-img'
                         className='w-100 h-100'
                         width={431}

@@ -63,7 +63,7 @@ export default function AboutUs() {
                     </div>
                   </div>
                   <Link href='#about' className='cmn-btn round100 cmn-primary2'>
-                    Read More
+                    Book a call
                   </Link>
                 </div>
               </div>

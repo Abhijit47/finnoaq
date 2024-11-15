@@ -8,9 +8,9 @@ import Count from '@/components/common/Count';
 import Image from 'next/image';
 
 import countImage1 from '../../../public/counters/1.svg';
-import countImage2 from '../../../public/counters/2.svg';
 import countImage3 from '../../../public/counters/3.svg';
 import countImage4 from '../../../public/counters/4.svg';
+import countImage2 from '../../../public/counters/5.svg';
 
 interface CountDataType {
   id: number;
@@ -21,14 +21,7 @@ interface CountDataType {
 }
 
 const coundet_data: CountDataType[] = [
-  { id: 1, number: 100, icon: countImage1, text: '+', title: 'Farmers' },
-  {
-    id: 2,
-    number: 1,
-    icon: countImage2,
-    text: 'cr+',
-    title: 'Seed production',
-  },
+  { id: 1, number: 1000, icon: countImage1, text: '+', title: 'Farmers' },
   {
     id: 2,
     number: 5,
@@ -37,11 +30,18 @@ const coundet_data: CountDataType[] = [
     title: 'Villages',
   },
   {
-    id: 2,
+    id: 3,
     number: 50,
     icon: countImage4,
     text: '+',
     title: 'Smart Farmers',
+  },
+  {
+    id: 4,
+    number: 1,
+    icon: countImage2,
+    text: 'cr+',
+    title: 'Production Revenue',
   },
 ];
 

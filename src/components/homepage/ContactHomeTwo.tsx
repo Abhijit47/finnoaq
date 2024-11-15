@@ -84,7 +84,7 @@ export default function ContactHomeTwo() {
                   <h5 className='p1-clr wow fadeInLeft' data-wow-delay='0.4s'>
                     Contact
                   </h5>
-                  <h2>Get Touch Here</h2>
+                  <h2>Share your Query ?</h2>
                 </div>
                 <form
                   ref={formRef}

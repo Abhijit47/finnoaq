@@ -14,7 +14,7 @@ export default function ServiceHomeTwo() {
                 <h5
                   className='p1-clr wow fadeInLeft text-uppercase'
                   data-wow-delay='0.4s'>
-                  Our Services
+                  OUR PRODUCT & SERVICES
                 </h5>
                 <h2 className='wow fadeInDown' data-wow-delay='.3s'>
                   Nourishing the world from seed to table
@@ -87,9 +87,9 @@ export default function ServiceHomeTwo() {
                       </p>
                     </li>
                   </ul> */}
-                  <Link href='/#' className='arrows'>
+                  {/* <Link href='/#' className='arrows'>
                     Read More <i className='fa-solid fa-angle-right'></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -118,16 +118,16 @@ export default function ServiceHomeTwo() {
                     />
                   </div>
                   <Link href='/#' className='title'>
-                    Farming 4.0 FaaS Platform
+                    Farming 4.0, FaaS Platform.
                   </Link>
                   <p>
                     Leverage IoT and data-driven insights for smarter farming
                     decisions. Our platform offers a range of services from
                     weather forecasting to soil health monitoring..
                   </p>
-                  <Link href='/#' className='arrows'>
+                  {/* <Link href='/#' className='arrows'>
                     Read More <i className='fa-solid fa-angle-right'></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -159,13 +159,15 @@ export default function ServiceHomeTwo() {
                     Modern Agronomy Consulting
                   </Link>
                   <p>
-                    Tailored strategies to implement impactful ESG, carbon
+                    {/* Tailored strategies to implement impactful ESG, carbon
                     credit and CSR projects to enhance your social
-                    responsibility with our expert guidance
+                    responsibility with our expert guidance */}
+                    Tailored strategies and enhanced guidance to implement
+                    impactful ESG, carbon credit and CSR projects with us.
                   </p>
-                  <Link href='/#' className='arrows'>
+                  {/* <Link href='/#' className='arrows'>
                     Read More <i className='fa-solid fa-angle-right'></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
