@@ -199,7 +199,7 @@ export default function ProjectHomeTwo() {
                     <i className='fa-solid fa-link'></i>
                   </Link>
                 </div>
-                <h2 className={'fs-3 text-center mt-2 display-3'}>
+                <h2 className={'fs-4 text-center mt-2 display-1'}>
                   {project.title}
                 </h2>
               </div>

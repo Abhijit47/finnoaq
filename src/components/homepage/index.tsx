@@ -18,6 +18,8 @@ import HeroHomeTwo from './HeroHomeTwo';
 import ServiceHomeTwo from './ServiceHomeTwo';
 import SubscribeHomeTwo from './SubscribeHomeTwo';
 // import TestimonialHomeTwo from './TestimonialHomeTwo';
+// import SubscribeModal from '../common/SubscribeModal';
+import dynamic from 'next/dynamic';
 import CounterHomeOne from './CounterHomeOne';
 import TrustedPartners from './TrustedPartners';
 // import FaqHomeThree from '../home-3/FaqHomeThree';
@@ -28,6 +30,11 @@ import TrustedPartners from './TrustedPartners';
 // import ServiceHomeTwo from './ServiceHomeTwo';
 // import SubscribeHomeTwo from './SubscribeHomeTwo';
 // import TestimonialHomeTwo from './TestimonialHomeTwo';
+
+const SubscribeModal = dynamic(
+  () => import('@/components/common/SubscribeModal'),
+  { ssr: false }
+);
 
 export default function HomeTwo() {
   return (
@@ -59,6 +66,8 @@ export default function HomeTwo() {
       {/* nessecary part */}
       <SubscribeHomeTwo />
       <FooterOne />
+
+      <SubscribeModal />
 
       {/* unnessecary sections */}
       {/* <TeamHomeTwo /> */}

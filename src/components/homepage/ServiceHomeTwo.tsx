@@ -118,12 +118,12 @@ export default function ServiceHomeTwo() {
                     />
                   </div>
                   <Link href='/#' className='title'>
-                    Farming 4.0, FaaS Platform.
+                    Farming 4.0, FaaS Platform
                   </Link>
                   <p>
                     Leverage IoT and data-driven insights for smarter farming
                     decisions. Our platform offers a range of services from
-                    weather forecasting to soil health monitoring..
+                    weather forecasting to soil health monitoring.
                   </p>
                   {/* <Link href='/#' className='arrows'>
                     Read More <i className='fa-solid fa-angle-right'></i>

@@ -39,7 +39,8 @@ export default function HeroHomeTwo() {
                     data-wow-delay='1s'>
                     <Link
                       href='#why-choose-us'
-                      className='cmn-btn round100 primary-border'>
+                      className='cmn-btn round100 primary-border'
+                      style={{ border: '#002ad5' }}>
                       Read More
                       <i className='fa-solid fa-angle-right'></i>
                     </Link>
@@ -49,9 +50,7 @@ export default function HeroHomeTwo() {
                       target='_blank'
                       rel='noopener noreferrer'
                       className='header-help'>
-                      <span
-                        className='icon d-center'
-                        style={{ background: '#002ad5' }}>
+                      <span className='icon d-center'>
                         <i className='fa-solid fa-phone'></i>
                       </span>
                       <span className='d-grid'>

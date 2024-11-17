@@ -33,9 +33,13 @@ export default function SubscribeHomeTwo() {
               <div className='row g-4 align-items-center justify-content-between'>
                 <div className='col-lg-6 col-md-5'>
                   <div className='subs-contentv2'>
-                    <h5>Subscribe our newsletter</h5>
-                    <h2>
+                    {/* <h5>Subscribe our newsletter</h5> */}
+                    <h5>“ Not ready to decide ?</h5>
+                    {/* <h2>
                       <span>Subscribe</span> for any information
+                    </h2> */}
+                    <h2>
+                      <span>Subscribe</span> for Free Resource Guide
                     </h2>
                   </div>
                 </div>

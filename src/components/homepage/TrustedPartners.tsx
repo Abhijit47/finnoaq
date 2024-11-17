@@ -12,7 +12,7 @@
 import brand_img_1 from '../../../public/partners/brand1.png';
 import brand_img_2 from '../../../public/partners/brand2.jpg';
 import brand_img_3 from '../../../public/partners/brand3.webp';
-import brand_img_4 from '../../../public/partners/brand4.png';
+import brand_img_4 from '../../../public/partners/brand4.jpg';
 import brand_img_5 from '../../../public/partners/brand5.jpg';
 import brand_img_6 from '../../../public/partners/brand6.png';
 

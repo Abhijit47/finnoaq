@@ -69,7 +69,7 @@ export default function AboutHomeTwo() {
                       <p>
                         We understand that every farm is unique, and we design
                         solutions tailored to meet your specific unique farming
-                        needs.
+                        needs
                       </p>
                     </li>
                     <li
@@ -80,7 +80,9 @@ export default function AboutHomeTwo() {
                         <i
                           className='fa-solid fa-circle-check'
                           style={{ color: '#002ad5' }}></i>
-                        <strong>Phygital farmtech, full stack solutions</strong>
+                        <strong>
+                          Phygital farmtech solutions, full stack solutions
+                        </strong>
                       </span>
                       <p>
                         We&apos;re your one stop sustainable farming platform
@@ -98,11 +100,11 @@ export default function AboutHomeTwo() {
                           style={{ color: '#002ad5' }}></i>
                         <strong>Sustainability & ESG Focus</strong>
                       </span>
-                      <p>
+                      {/* <p>
                         We’re committed to enabling sustainable farming
                         practices that enhance your farm’s productivity,
                         profitability and positive impact on health.
-                      </p>
+                      </p> */}
                       <p>
                         We are committed to enabling positive social impact that
                         boost farm productivity, farmers profitability and

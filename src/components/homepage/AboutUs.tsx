@@ -62,7 +62,11 @@ export default function AboutUs() {
                       </div>
                     </div>
                   </div>
-                  <Link href='#about' className='cmn-btn round100 cmn-primary2'>
+                  <Link
+                    href='https://calendly.com/finnoaq/30min'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='cmn-btn round100 cmn-primary2'>
                     Book a call
                   </Link>
                 </div>

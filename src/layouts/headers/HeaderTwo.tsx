@@ -53,18 +53,35 @@ export default function HeaderTwo() {
       <header
         id='header-sticky'
         className={`header-2 ${sticky ? 'sticky' : ''}`}>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='mega-menu-wrapper'>
             <div className='header-main'>
-              <div className='header-left w-25 h-25'>
-                <div className='logo w-50 h-50'>
+              <div className='header-left'>
+                <div className={'d-none d-lg-block'}>
+                  <div className='logo w-100 h-100'>
+                    <Link href='#header-sticky' className='header-logo'>
+                      <Image
+                        src='/assets/img/logo/Logo_t.png'
+                        // src='/assets/img/logo/logo-f.webp'
+                        alt='logo-img'
+                        width={300}
+                        height={80}
+                        className='w-50 h-50 ratio ratio-16x9'
+                        priority={true}
+                      />
+                    </Link>
+                  </div>
+                </div>
+
+                <div className='d-md-block d-lg-none w-100 h-100'>
                   <Link href='#header-sticky' className='header-logo'>
                     <Image
-                      src='/assets/img/logo/Logo_t.png'
+                      // src='/assets/img/logo/Logo_t.png'
+                      src='/assets/img/logo/logo-f.webp'
                       alt='logo-img'
-                      width={431}
-                      height={154}
-                      className='w-100 h-100'
+                      width={300}
+                      height={80}
+                      className='w-50 h-50 ratio ratio-16x9'
                       priority={true}
                     />
                   </Link>

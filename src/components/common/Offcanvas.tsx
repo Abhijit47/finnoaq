@@ -24,10 +24,12 @@ export default function Offcanvas(props: Props) {
                 <div className='offcanvas__logo'>
                   <Link href='/'>
                     <Image
-                      src='/assets/img/logo/favcion.png'
+                      // src='/assets/img/logo/favcion.png'
+                      src='/assets/img/logo/logo-f.webp'
                       alt='logo-img'
-                      width={38}
+                      width={300}
                       height={40}
+                      className='w-50 h-50 ratio ratio-16x9'
                     />
                   </Link>
                 </div>

@@ -4,7 +4,7 @@ import VideoPopup from '@/modals/VideoPopup';
 import { useState } from 'react';
 
 export default function FeatureHomeTwo() {
-  const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
+  const [isVideoOpen, setIsVideoOpen] = useState<boolean>(true);
 
   return (
     <>
@@ -25,7 +25,8 @@ export default function FeatureHomeTwo() {
       <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={'-hTVNidxg2s'}
+        // videoId={'-hTVNidxg2s'}
+        videoId={'1030325084'}
       />
       {/* video modal end  */}
     </>

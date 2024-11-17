@@ -37,77 +37,93 @@ export default function WorkProcessHomeTwo() {
               className='col-lg-3 col-md-6 col-sm-6 wow fadeInDown'
               data-wow-delay='.3s'>
               <div className='working-proces-items01 h-100'>
-                <h3 className='white-clr pe-4 fs-6'>
+                <h3 className='white-clr me-5 fs-6'>
                   Fill up the google form so, <br /> we can assess your unique
                   needs and goals
                   {/* Prepare <br /> the soil */}
                 </h3>
-                <Image
+                {/* <Image
                   src='/assets/img/element/step-shape.png'
                   alt='img'
                   className='step-working w-auto h-auto object-fit-contain'
-                  width={94}
-                  height={94}
-                />
-                <span className='step-text'>01</span>
+                  width={80}
+                  height={80}
+                /> */}
+                <span
+                  className='step-text rounded round100 p-2'
+                  style={{ background: '#fdd61f' }}>
+                  01
+                </span>
               </div>
             </div>
             <div
               className='col-lg-3 col-md-6 col-sm-6 wow fadeInDown'
               data-wow-delay='.5s'>
               <div className='working-proces-items01 h-100'>
-                <h3 className='white-clr pe-4 fs-6'>
+                <h3 className='white-clr me-5 fs-6'>
                   {/* Farm the <br /> seeds */}
                   Customized Solution Design is developed by our expertise
                   according to your unique requirements and shared over
                   mail/whatsapp
                 </h3>
-                <Image
+                {/* <Image
                   src='/assets/img/element/step-shape.png'
                   alt='img'
                   className='step-working w-auto h-auto object-fit-contain'
-                  width={94}
-                  height={94}
-                />
-                <span className='step-text'>02</span>
+                  width={80}
+                  height={80}
+                /> */}
+                <span
+                  className='step-text rounded round100 p-2'
+                  style={{ background: '#fdd61f' }}>
+                  02
+                </span>
               </div>
             </div>
             <div
               className='col-lg-3 col-md-6 col-sm-6 wow fadeInDown'
               data-wow-delay='.7s'>
               <div className='working-proces-items01 h-100'>
-                <h3 className='white-clr pe-4 fs-6'>
+                <h3 className='white-clr me-5 fs-6'>
                   {/* Water the <br /> plants */}
                   Plan Bio-farming Installation, Setup & Training to optimise
                   your farm for maximum productivity and sustainability
                 </h3>
-                <Image
+                {/* <Image
                   src='/assets/img/element/step-shape.png'
                   alt='img'
                   className='step-working w-auto h-auto object-fit-contain'
-                  width={94}
-                  height={94}
-                />
-                <span className='step-text'>03</span>
+                  width={80}
+                  height={80}
+                /> */}
+                <span
+                  className='step-text rounded round100 p-2'
+                  style={{ background: '#fdd61f' }}>
+                  03
+                </span>
               </div>
             </div>
             <div
               className='col-lg-3 col-md-6 col-sm-6 wow fadeInDown'
               data-wow-delay='.8s'>
               <div className='working-proces-items01 h-100'>
-                <h3 className='white-clr pe-4 fs-6'>
+                <h3 className='white-clr me-5 fs-6'>
                   {/* Fertilize <br /> the Farm */}
                   Enjoy Continuous Support & Optimization via our AI powered
                   FaaS Platform to keep your farm resilient and thriving.
                 </h3>
-                <Image
+                {/* <Image
                   src='/assets/img/element/step-shape.png'
                   alt='img'
                   className='step-working w-auto h-auto object-fit-contain'
-                  width={94}
-                  height={94}
-                />
-                <span className='step-text'>04</span>
+                  width={80}
+                  height={80}
+                /> */}
+                <span
+                  className='step-text rounded round100 p-2'
+                  style={{ background: '#fdd61f' }}>
+                  04
+                </span>
               </div>
             </div>
 
@@ -140,19 +156,23 @@ export default function WorkProcessHomeTwo() {
               className='col-lg-3 col-md-6 col-sm-6 wow fadeInDown'
               data-wow-delay='.8s'>
               <div className='working-proces-items01 h-100'>
-                <h3 className='white-clr pe-4 fs-6'>
+                <h3 className='white-clr me-5 fs-6'>
                   {/* Fertilize <br /> the Farm */}
                   We review outcomes annually and help you explore growth
                   expansion opportunities for your long-term farming success.
                 </h3>
-                <Image
+                {/* <Image
                   src='/assets/img/element/step-shape.png'
                   alt='img'
                   className='step-working w-auto h-auto object-fit-contain'
-                  width={94}
-                  height={94}
-                />
-                <span className='step-text'>05</span>
+                  width={80}
+                  height={80}
+                /> */}
+                <span
+                  className='step-text rounded round100 p-2'
+                  style={{ background: '#fdd61f' }}>
+                  05
+                </span>
               </div>
             </div>
           </div>
