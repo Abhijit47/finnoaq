@@ -1,22 +1,24 @@
 'use client';
 
 import VideoPopup from '@/modals/VideoPopup';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function FeatureHomeTwo() {
-  const [isVideoOpen, setIsVideoOpen] = useState<boolean>(true);
+  const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
 
   return (
     <>
       <div className='feature-videov02'>
         <div className='container'>
           <div className='feature-video-wrap d-center w-100'>
-            <a
+            <Link
+              href={'#'}
               onClick={() => setIsVideoOpen(true)}
               style={{ cursor: 'pointer', background: '#002ad5' }}
               className='video-cmn d-center video-popup'>
               <i className='fa-solid fa-play text-light'></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
