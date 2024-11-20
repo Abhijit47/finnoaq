@@ -39,7 +39,7 @@ export default function SubscribeHomeTwo() {
                       <span>Subscribe</span> for any information
                     </h2> */}
                     <h2>
-                      <span>Subscribe</span> for Free Resource Guide
+                      <span>Subscribe</span> for Free Farming Resource Guide
                     </h2>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export default function SubscribeHomeTwo() {
                       defaultValue={isDev ? 'someone@gmail.com' : ''}
                     />
                     <button className='cmn-btn cmn-white p900-clr round100 text-capitalize'>
-                      Subcribe
+                      Subscribe
                     </button>
                   </form>
                 </div>

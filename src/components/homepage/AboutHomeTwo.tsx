@@ -28,7 +28,7 @@ export default function AboutHomeTwo() {
               <div className='about-contentv1'>
                 <div className='section-title mb-40'>
                   <h5 className='p1-clr wow fadeInLeft' data-wow-delay='0.4s'>
-                    Why Chose Us ?
+                    Why Choose Us ?
                   </h5>
                   <h2 className='wow fadeInDown' data-wow-delay='.3s'>
                     Making farming simple, smart and sustainable
@@ -81,7 +81,7 @@ export default function AboutHomeTwo() {
                           className='fa-solid fa-circle-check'
                           style={{ color: '#002ad5' }}></i>
                         <strong>
-                          Phygital farmtech solutions, full stack solutions
+                          Phygital Farmtech Solutions, full stack solutions
                         </strong>
                       </span>
                       <p>

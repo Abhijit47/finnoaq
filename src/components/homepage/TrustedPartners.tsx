@@ -15,6 +15,9 @@ import brand_img_3 from '../../../public/partners/brand3.webp';
 import brand_img_4 from '../../../public/partners/brand4.jpg';
 import brand_img_5 from '../../../public/partners/brand5.jpg';
 import brand_img_6 from '../../../public/partners/brand6.png';
+import brand_img_7 from '../../../public/partners/brand7.webp';
+import brand_img_8 from '../../../public/partners/brand8.png';
+import brand_img_9 from '../../../public/partners/brand9.jpg';
 
 import Image from 'next/image';
 import { Autoplay } from 'swiper/modules';
@@ -27,12 +30,18 @@ const brand_data = [
   brand_img_4,
   brand_img_5,
   brand_img_6,
+  brand_img_7,
+  brand_img_8,
+  brand_img_9,
   brand_img_1,
   brand_img_2,
   brand_img_3,
   brand_img_4,
   brand_img_5,
   brand_img_6,
+  brand_img_7,
+  brand_img_8,
+  brand_img_9,
 ];
 
 interface PropsType {

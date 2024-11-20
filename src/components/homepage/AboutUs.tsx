@@ -1,7 +1,16 @@
+'use client';
+
 import Image from 'next/image';
-import Link from 'next/link';
+import { useState } from 'react';
+import PopUpModal from '../common/Modal';
 
 export default function AboutUs() {
+  const [show, setShow] = useState(false);
+
+  function toggleModal() {
+    return setShow((prev) => !prev);
+  }
+
   return (
     <>
       <section
@@ -62,13 +71,14 @@ export default function AboutUs() {
                       </div>
                     </div>
                   </div>
-                  <Link
-                    href='https://calendly.com/finnoaq/30min'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                  <button
+                    // href='https://calendly.com/finnoaq/30min'
+                    // target='_blank'
+                    // rel='noopener noreferrer'
+                    onClick={toggleModal}
                     className='cmn-btn round100 cmn-primary2'>
                     Book a call
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>
@@ -120,6 +130,8 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
+
+      <PopUpModal isOpen={show} onToggleModal={toggleModal} />
     </>
   );
 }

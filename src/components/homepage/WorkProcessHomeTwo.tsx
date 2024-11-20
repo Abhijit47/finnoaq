@@ -11,10 +11,12 @@ export default function WorkProcessHomeTwo() {
               <h5
                 className='p1-clr wow fadeInLeft text-uppercase'
                 data-wow-delay='0.4s'>
-                Work Process
+                {/* Work Process */}
+                How it works ?
               </h5>
               <h2 className='wow fadeInDown' data-wow-delay='.3s'>
-                Shape your garden <br /> into a work of art
+                {/* Shape your garden <br /> into a work of art */}
+                Shape your sustainable farming future
               </h2>
             </div>
             <div>
