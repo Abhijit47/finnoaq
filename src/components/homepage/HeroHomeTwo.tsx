@@ -67,7 +67,7 @@ export default function HeroHomeTwo() {
 
         <Image
           // src='/assets/img/banner/hero-v2.png'
-          src='/hero-v2-4.png'
+          src='/hero-v2-1.png'
           alt='img'
           className='hero-v02-thumb object-fit-fill'
           width={1036}
