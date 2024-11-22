@@ -67,17 +67,17 @@ export default function HeroHomeTwo() {
 
         <Image
           // src='/assets/img/banner/hero-v2.png'
-          src='/hero.jpg'
+          src='/hero-v2-4.png'
           alt='img'
-          className='hero-v02-thumb object-fit-cover'
+          className='hero-v02-thumb object-fit-fill'
           width={1036}
           height={800}
           placeholder='blur'
           blurDataURL={HERO_BANNER.blurDataURL}
           priority={true}
-          style={{
-            clipPath: 'polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0 51%)',
-          }}
+          // style={{
+          //   clipPath: 'polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0 51%)',
+          // }}
         />
       </section>
     </>

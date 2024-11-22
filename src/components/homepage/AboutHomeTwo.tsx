@@ -81,7 +81,7 @@ export default function AboutHomeTwo() {
                           className='fa-solid fa-circle-check'
                           style={{ color: '#002ad5' }}></i>
                         <strong>
-                          Phygital Farmtech Solutions, full stack solutions
+                          Phygital Farmtech Solutions
                         </strong>
                       </span>
                       <p>
