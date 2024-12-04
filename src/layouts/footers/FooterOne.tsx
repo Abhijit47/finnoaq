@@ -70,7 +70,7 @@ export default function FooterOne() {
                 data-wow-delay='.5s'>
                 <div className='single-footer-widget'>
                   <div className='widget-head'>
-                    <h3 className='white-clr'>Service</h3>
+                    <h3 className='white-clr'>Solutions</h3>
                   </div>
                   <ul className='list-area'>
                     <li>
@@ -94,7 +94,7 @@ export default function FooterOne() {
                     <li>
                       <Link href='#services'>
                         <i className='fa-solid fa-angle-right'></i>
-                        Farm Startup support
+                        Farm Startup & Consultation
                       </Link>
                     </li>
                   </ul>

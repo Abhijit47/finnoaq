@@ -43,7 +43,8 @@ export default function AboutUs() {
                         className='per-title d-flex align-items-center justify-content-between'
                         style={{ width: '70%' }}>
                         <div className='item_label p900-clr'>
-                          Next-Gen Farming, Healthy Food
+                          {/* Next-Gen Farming, Healthy Food */}
+                          Next-Gen Sustainable Farming, Healthy Food
                         </div>
                         {/* <div className='item_value p900-clr'>70%</div> */}
                       </div>
@@ -59,7 +60,8 @@ export default function AboutUs() {
                         className='per-title d-flex align-items-center justify-content-between'
                         style={{ width: '80%' }}>
                         <div className='item_label p900-clr'>
-                          Full stack Phygital Model, Smart Villages
+                          Full Stack Phygital Model, Smart Village Agripreneur
+                          {/* Full stack Phygital Model, Smart Villages */}
                         </div>
                         {/* <div className='item_value p900-clr'>80%</div> */}
                       </div>

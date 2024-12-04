@@ -48,10 +48,12 @@ export default function Faqs() {
                       planet.
                     </p>
                     <p className={'mb-2'}>
-                      <em>
-                        Get in touch with us today and let’s cultivate success
-                        together!
-                      </em>
+                      <strong>
+                        <em>
+                          Get in touch with us today and let’s cultivate success
+                          together!
+                        </em>
+                      </strong>
                     </p>
                   </div>
 

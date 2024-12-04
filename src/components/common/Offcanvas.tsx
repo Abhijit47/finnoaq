@@ -76,7 +76,7 @@ export default function Offcanvas(props: Props) {
                     </div>
                     <div className='offcanvas__contact-text'>
                       <Link target='_blank' href='#' onClick={onToogleCanvas}>
-                        Mon-friday, 06 am - 02 pm
+                        Mon-friday, 08 am - 08 pm
                       </Link>
                     </div>
                   </li>
